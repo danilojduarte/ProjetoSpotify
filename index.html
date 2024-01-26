@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="reset.css">
     <!-- Link Css -->
     <link rel="stylesheet" href="styles.css">
-    <!-- Link boxIcons -->
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- Link FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+        integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
     <title>Spotify</title>
 
 </head>
@@ -22,25 +25,39 @@
                     <img src="assets/logo-spotify.png" alt="Logo Spotify">
                 </a>
             </div>
-                <div>
-                    <ul>
-                        <li>
-                            <a href="#">
-                                <span><i class='bx bxs-home'></i></span>
-                                <span>Inicio</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span><i class='bx bxs-search-alt-2'></i></span>
-                                <span>Busca</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="fa fa-home"></span>
+                        <span>Inicio</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="fa fa-search"></span>
+                        <span>Busca</span>
+                    </a>
+                </li>
+            </ul>
+
         </nav>
+        <div class="library">
+            <div class="library__content">
+                <button class="library__button">
+                    <span class="fa fas fa-book">
+                    </span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
     </div>
+
+
+
+
+
+
 </body>
 
 </html>
