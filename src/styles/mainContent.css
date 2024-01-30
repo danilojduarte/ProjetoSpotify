@@ -79,3 +79,10 @@ cursor: pointer;
     font-weight: 700;
     border-radius: 40px;
 }
+
+/* Playlist */
+.offer__scroll__content {
+    max-height: 43vh;
+    margin: 24px;
+    overflow: auto;
+}
